@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piano Virtual Avançado</title>
+
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h2>Piano Virtual</h2>
+      <div class="column volume-slider">
+        <span>Volume</span> <input type="range" min="0" max="1" value="0.5" step="any">
+      </div>
+      <div class="column keys-check">
+        <span>Mostrar Teclas</span> <input type="checkbox" checked>
+      </div>
+    </header>
+
+    <div class="controls">
+      <div class="instrument-selector">
+        <span>Instrumento:</span>
+        <select id="instrument-select">
+          <option value="piano" selected>Piano</option>
+          <option value="guitar">Guitarra</option>
+          </select>
+      </div>
+      <div class="recorder-buttons">
+        <button id="record-btn">Gravar 🔴</button>
+        <button id="play-btn" disabled>Reproduzir ▶️</button>
+      </div>
+    </div>
+
+    <ul class="piano-keys">
+      </ul>
+  </div>
+
+  <div id="visualizer-container">
+    </div>
+
+    <script src="./src/scripts/engine.js" defer></script>
+</body>
+</html>
