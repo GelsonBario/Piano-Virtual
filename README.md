@@ -32,14 +32,20 @@ Este é um projeto de um piano virtual interativo e avançado, desenvolvido com 
 Este projeto não requer nenhuma instalação ou dependência. Basta seguir os passos abaixo:
 
 1.  *Clone o repositório:*
+
+```
     bash
-    git clone [[https://github.com/GelsonBario/Piano-Virtual.git](https://github.com/GelsonBario/Piano-Virtual)]
+    git clone https://github.com/GelsonBario/Piano-Virtual
+```
     
-2.  *Navegue até a pasta do projeto:*
+3.  *Navegue até a pasta do projeto:*
+
+```
     bash
     cd Piano-Virtual
+```
     
-3.  **Abra o arquivo index.html** no seu navegador de preferência.
+5.  **Abra o arquivo index.html** no seu navegador de preferência.
 
 Pronto! O piano virtual estará funcionando.
 
@@ -49,7 +55,7 @@ Pronto! O piano virtual estará funcionando.
 
 A estrutura do projeto está organizada da seguinte forma para facilitar a manutenção:
 
-
+```
 .
 ├── index.html              # Arquivo principal da estrutura HTML
 ├── src/
@@ -69,7 +75,7 @@ A estrutura do projeto está organizada da seguinte forma para facilitar a manut
 
 
 ---
-
+```
 ## ⚠ Observação Importante
 
 O projeto está totalmente funcional para o instrumento *Piano*. No entanto, os arquivos de áudio (.wav) para o instrumento *Guitarra* não estão incluídos neste repositório.
